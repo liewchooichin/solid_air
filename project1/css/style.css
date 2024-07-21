@@ -1,0 +1,43 @@
+/* Custom CSS */
+/* Fluid images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* All buttons - override the btn-info */
+.btn.btn-info {
+    background: darkslateblue;
+    border: 1px solid darkslateblue;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 25px;
+}
+/* Header area */
+#id_main_menu_area nav {
+    background-color: cornflowerblue;
+    font-weight: 500;
+}
+/* Carousel area */
+#id_my_carousel {
+    height: 150px;
+    width: 150px;
+}
+/* About area */
+#id_about_area, #id_work_area {
+    padding-top: 80px;
+}
+/* Work area */
+#id_work_area {
+    background-color: cornflowerblue;
+}
+/* Contact us area */
+#id_contact_area {
+    background-color: cornflowerblue;
+}
+/* Footer area button */
+#id_footer form .btn.btn-info {
+    /* override the previous rounded button
+    setting.
+    */
+    border-radius: 0;
+}
